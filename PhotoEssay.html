@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Photo Essay Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Libre+Franklin:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 23px 23px;
+            font-family: 'Libre Franklin', sans-serif;
+        }
+        #container {
+            display: flex;
+        }
+        #sidebar {
+            position: relative;
+        }
+        #sidebar > div {
+            padding-right: 20px;
+            border-right: 1px solid #bfbfbf;
+            height: calc(100vh - 46px);
+            position: fixed;
+            background-color: white;
+        }
+        #sidebar hr {
+            border-top: 1px solid #bfbfbf;
+            border-bottom: 0;
+        }
+        #sidebar > div > div:first-child {
+            font-weight: 900;
+            font-size: 18px;
+            color: #FFDD97;
+            margin-bottom: 16px;
+        }
+        #links {
+            margin-top: 36px;
+        }
+        #links div {
+            margin-bottom: 15px;
+            font-weight: 200;
+            font-size: 12px;
+        }
+        #links a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        #links a:hover {
+            text-decoration: underline;
+        }
+        #main-wrapper {
+            flex-grow: 1;
+            padding: 0 38px;
+            margin-left: 135px;
+        }
+        #main-wrapper > div:first-child img {
+            width: 138px;
+            display: block;
+            margin: auto;
+        }
+        .title {
+            margin-top: 42px;
+            font-weight: 900;
+            font-size: 24px;
+        }
+        .author {
+            text-transform: uppercase;
+            font-weight: 200;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        .author span {
+            margin-right: 10px;
+        }
+        #main-wrapper p {
+            font-family: 'EB Garamond', serif;
+        }
+        .photos {
+            margin: 35px 0;
+        }
+        .photos div:first-child {
+            display: flex;
+            margin-bottom: 25px;
+        }
+        .photos div:first-child img {
+            width: 48%;
+        }
+        .photos div:first-child img:first-child {
+            margin-right: 4%;
+        }
+        .photos div:last-child img {
+            width: 100%;
+        }
+        .photos + div {
+            display: flex;
+        }
+        .photos + div div {
+            width: 46%;
+            font-weight: normal;
+            font-size: 18px;
+        }
+        .photos + div div:first-child {
+            margin-right: 8%;
+        }
+        .photos + div p:first-child {
+            margin-top: 0;
+        }
+        .photos + div img {
+            width: 100%;
+        }
+        .photos2 {
+            display: flex;
+            margin-top: 35px;
+            padding-bottom: 52px;
+            border-bottom: 1px solid #bfbfbf;
+        }
+        .photos2 div {
+            width: 48%;
+        }
+        .photos2 img {
+            width: 100%;
+        }
+        .photos2 div:first-child {
+            margin-right: 4%;
+        }
+        #credits {
+            font-weight: 200;
+            font-size: 12px;
+            text-transform: uppercase;
+            padding: 25px 0 10px 0;
+        }
+        #credits div:first-child {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div>
+                <div>
+                    <div>the</div>
+                    <div>new</div>
+                    <div>normal.</div>
+                </div>
+                <hr/>
+                <div id="links">
+                    <div><a href="">About</a></div>
+                    <div><a href="">Articles</a></div>
+                    <div><a href="">Podcasts</a></div>
+                    <div><a href="">Photo Essays</a></div>
+                    <div><a href="">Videos</a></div>
+                    <div><a href="">Contributors</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="main-wrapper">
+            <div><img src="Assets/DT%20logo.png" alt="DT Logo"></div>
+            <div>
+                <div class="title">Photo Essay Title Here</div>
+                <div class="author"><span>by: tommy trojan</span>10/09/2021</div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus quis lorem cursus lobortis. Vivamus tempor consequat urna, eget rutrum quam posuere non. Sed vitae ornare risus. Fusce lectus est, aliquam eget libero ac, laoreet viverra lacus. Aliquam erat volutpat. Vivamus luctus tortor id commodo fringilla. Integer rutrum neque id vulputate ornare. Nulla diam velit, ornare a turpis non, viverra dapibus neque.
+                </p>
+                <p>
+                    Nulla vitae rutrum nisl. Duis tempor metus sed felis interdum, sit amet feugiat libero ultricies. Sed ut tortor ipsum. Donec ac ex lacinia lorem accumsan ornare at ut velit. Nunc commodo felis et orci faucibus, in interdum nisi faucibus. In vehicula rhoncus ex vitae malesuada. Curabitur gravida eleifend tincidunt. Mauris eget blandit magna. Aliquam sollicitudin, justo ut malesuada feugiat, diam sem faucibus massa, ac sagittis dui leo a magna. Mauris lectus nulla, ornare vitae tempor non, cursus in nibh. Nulla vitae rutrum nisl. Duis tempor metus sed felis interdum, sit amet feugiat libero ultricies. Sed ut tortor ipsum. Donec ac ex lacinia lorem accumsan ornare at ut velit. Nunc commodo felis et orci faucibus, in interdum nisi faucibus.
+                </p>
+                <div class="photos">
+                    <div>
+                        <img src="Assets/PhotoEssay1.png" alt="">
+                        <img src="Assets/PhotoEssay2.png" alt="">
+                    </div>
+                    <div>
+                        <img src="Assets/PhotoEssay3.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus quis lorem cursus lobortis. Vivamus tempor consequat urna, eget rutrum quam posuere non. Sed vitae ornare risus. Fusce lectus est, aliquam eget libero ac, laoreet viverra lacus. Aliquam erat volutpat. Vivamus luctus tortor id commodo fringilla. Integer rutrum neque id vulputate ornare. Nulla diam velit, ornare a turpis non, viverra dapibus neque.</p>
+                        <p>Nulla vitae rutrum nisl. Duis tempor metus sed felis interdum, sit amet feugiat libero ultricies. Sed ut tortor ipsum. Donec ac ex lacinia lorem accumsan ornare at ut velit. Nunc commodo felis et orci faucibus, in interdum nisi faucibus. In vehicula rhoncus ex vitae malesuada. Curabitur gravida eleifend tincidunt. Mauris eget blandit magna. Aliquam sollicitudin, justo ut malesuada feugiat, diam sem faucibus massa, ac sagittis dui leo a magna. Mauris lectus nulla, ornare vitae tempor non, cursus in nibh. Nulla vitae rutrum nisl. Duis tempor metus sed felis interdum, sit amet feugiat libero ultricies. Sed ut tortor ipsum. Donec ac ex lacinia lorem accumsan ornare at ut velit. Nunc commodo felis et orci faucibus, in interdum nisi faucibus.</p>
+                    </div>
+                    <div><img src="Assets/PhotoEssay4.png" alt=""></div>
+                </div>
+                <div class="photos2">
+                    <div><img src="Assets/PhotoEssay5.png" alt=""></div>
+                    <div><img src="Assets/PhotoEssay6.png" alt=""></div>
+                </div>
+                <div id="credits">
+                    <div>credits here</div>
+                    <div>© University of Southern California | Daily Trojan 2021. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

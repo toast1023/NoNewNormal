@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Rough Draft 1</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Libre+Franklin:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+		}
+		#header {
+			background-color: #ffdd97;
+			font-family: 'Libre Franklin', sans-serif;
+		}
+		#header img {
+			width: 50%;
+			display: block;
+			margin: auto;
+		}
+		#header a {
+			text-decoration: none;
+			color: black;
+		}
+		#header a:hover {
+			text-decoration: underline;
+		}
+		#header > div:first-child {
+			display: flex;
+			justify-content: space-between;
+			padding-top: 10px;
+			padding-right: 10px;
+			font-size: 1rem;
+			font-weight: 200;
+		}
+		#header > div:first-child > div:last-child div {
+			margin-bottom: 3px;
+			text-align: right;
+		}
+		#header > div:last-child {
+			color: #952836;
+			font-weight: 900;
+			font-size: 65px;
+			margin-left: 53px;
+			padding-bottom: 40px;
+			padding-top: 125px;
+		;
+		}
+		#intro, #footer {
+			background-color: #952836;
+		}
+		#intro {
+			padding: 65px 170px 80px 170px;
+			color: white;
+			font-family: 'EB Garamond', serif;
+		}
+		#intro .title {
+			text-align: center;
+			padding-bottom: 10px;
+		}
+		#intro p {
+			font-weight: normal;
+			font-size: 1.2rem;
+		}
+		.title {
+			font-family: 'Libre Franklin', sans-serif;
+			font-weight: 900;
+			font-size: 37px;
+		}
+		#videos-articles {
+			padding: 65px 80px 100px 80px;
+		}
+		#videos-articles .contents {
+			display: flex;
+			margin: 55px -2% 0 -2%;
+			font-family: 'Libre Franklin', sans-serif;
+		}
+		#videos-articles .contents > div {
+			width: 25%;
+			padding: 10px 2%;
+		}
+		#videos-articles .contents img {
+			width: 100%;
+		}
+		#videos-articles .article-title {
+			padding-top: 10px;
+			font-weight: 600;
+			font-size: 18px;
+		}
+		#videos-articles .article-title + div {
+			font-weight: 200;
+			font-size: 12px;
+		}
+		#photos {
+			padding: 0 80px 130px 80px;
+		}
+		#photos .contents {
+			margin-top: 30px;
+		}
+		#photos .contents .photos-row {
+			display: flex;
+			margin-bottom: 3px;
+		}
+		#photos .contents .photos-row img {
+			width: 98%;
+		}
+		#footer {
+			padding: 37px 52px;
+			font-family: 'Libre Franklin', sans-serif;
+			color: white;
+			font-weight: 300;
+			font-size: 15px;
+		}
+		#footer > div:first-child {
+			display: flex;
+			justify-content: space-between;
+		}
+		#footer > div:last-child {
+			text-align: center;
+			margin-top: 100px;
+			font-size: 12px;
+			font-weight: 500;
+		}
+		#footer img {
+			width: 70%;
+		}
+		#footer #links {
+			flex-grow: 1;
+			display: flex;
+		}
+		#footer #links > div {
+			width: 33%;
+		}
+		#footer #links > div > div {
+			margin-bottom: 10px;
+		}
+		#footer #links a {
+			text-decoration: none;
+			color: white;
+		}
+		#footer #links a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div> </div>
+			<div>
+				<img src="Assets/DT%20logo.png" alt="DT Logo">
+			</div>
+			<div>
+				<div><a href="Video.html">Videos</a></div>
+				<div><a href="Article.html">Articles</a></div>
+				<div><a href="PhotoEssay.html">Photos</a></div>
+			</div>
+		</div>
+		<div>
+			<div>Trojans</div>
+			<div>Together</div>
+			<div>Again</div>
+		</div>
+	</div>
+	<div id="intro">
+		<div class="title">Introduction</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus quis lorem cursus lobortis. Vivamus tempor consequat urna, eget rutrum quam posuere non. Sed vitae ornare risus. Fusce lectus est, aliquam eget libero ac, laoreet viverra lacus. Aliquam erat volutpat. Vivamus luctus tortor id commodo fringilla. Integer rutrum neque id vulputate ornare. Nulla diam velit, ornare a turpis non, viverra dapibus neque.</p>
+		<p>Nulla vitae rutrum nisl. Duis tempor metus sed felis interdum, sit amet feugiat libero ultricies. Sed ut tortor ipsum. Donec ac ex lacinia lorem accumsan ornare at ut velit. Nunc commodo felis et orci faucibus, in interdum nisi faucibus. In vehicula rhoncus ex vitae malesuada. Curabitur gravida eleifend tincidunt. Mauris eget blandit magna. Aliquam sollicitudin, justo ut malesuada feugiat, diam sem faucibus massa, ac sagittis dui leo a magna. Mauris lectus nulla, ornare vitae tempor non, cursus in nibh. </p>
+	</div>
+	<div id="videos-articles">
+		<div class="title">Videos & Articles</div>
+		<div class="contents">
+			<div>
+				<div>
+					<img src="Assets/Rectangle1.png" alt="">
+				</div>
+				<div>
+					<div class="article-title">Title 1 Here</div>
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus quis lorem cursus lobortis.
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<img src="Assets/Rectangle2.png" alt="">
+				</div>
+				<div>
+					<div class="article-title">Title 2 Here</div>
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus quis lorem cursus lobortis.
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<img src="Assets/Rectangle1.png" alt="">
+				</div>
+				<div>
+					<div class="article-title">Title 3 Here</div>
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus quis lorem cursus lobortis.
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<img src="Assets/Rectangle2.png" alt="">
+				</div>
+				<div>
+					<div class="article-title">Title 4 Here</div>
+					<div>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus quis lorem cursus lobortis.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photos">
+		<div class="title">Photos</div>
+		<div class="contents">
+			<div class="photos-row">
+				<div><img src="Assets/Photo1.png" alt=""></div>
+				<div><img src="Assets/Photo2.png" alt=""></div>
+				<div><img src="Assets/Photo3.png" alt=""></div>
+			</div>
+			<div class="photos-row">
+				<div><img src="Assets/Photo4.png" alt=""></div>
+				<div>
+					<div class="photos-row">
+						<div><img src="Assets/Photo5.png" alt=""></div>
+						<div><img src="Assets/Photo6.png" alt=""></div>
+					</div>
+					<div class="photos-row">
+						<div><img src="Assets/Photo7.png" alt=""></div>
+						<div><img src="Assets/Photo8.png" alt=""></div>
+						<div><img src="Assets/Photo9.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<div><img src="Assets/DT%20logo.png" alt="DT Logo"></div>
+			<div id="links">
+				<div>
+					<div><a href="Video.html">Videos</a></div>
+					<div><a href="Article.html">Articles</a></div>
+					<div><a href="PhotoEssay.html">Photos</a></div>
+				</div>
+				<div>
+					<div><a href="https://dailytrojan.com/">Website</a></div>
+					<div><a href="https://instagram.com/dailytrojan">Instagram</a></div>
+				</div>
+				<div>
+					<div><a href="#">Credits</a></div>
+				</div>
+			</div>
+		</div>
+		<div>© University of Southern California | Daily Trojan 2021</div>
+	</div>
+</body>
+</html>
